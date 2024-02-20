@@ -80,6 +80,23 @@ dependencies {
     kapt(Dependencies.hiltAndroidCompiler)
     implementation(Dependencies.hiltNavigation)
 
+    //retrofit
+    implementation(Dependencies.retrofit)
+    implementation(Dependencies.moshiConvertor)
+    implementation(Dependencies.moshi)
+    implementation(Dependencies.loggingInterceptor)
+    implementation(Dependencies.gsonConvertor)
+    implementation(Dependencies.okhttp)
+
+    //coroutines
+    implementation(Dependencies.coroutinesCore)
+    implementation(Dependencies.coroutinesAndroid)
+
+    //splashScreen
+    implementation(Dependencies.splashScreen)
+
+    //coil
+    implementation(Dependencies.coil)
 }
 
 kapt {
